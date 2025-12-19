@@ -1,0 +1,64 @@
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.item {
+	padding: 16px;
+	margin-bottom: 8px;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	transition: box-shadow 0.2s;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.item:hover {
+	cursor: pointer;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.id {
+	font-weight: 600;
+	color: #666;
+	min-width: 40px;
+}
+
+.description {
+	flex: 1;
+	color: #333;
+}
+
+.status {
+	padding: 4px 12px;
+	border-radius: 12px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.completed {
+	background: lightgreen;
+	color: green;
+}
+
+.incomplete {
+	background: lightyellow;
+	color: orange;
+}
+
+.loading,
+.empty {
+	text-align: center;
+	padding: 32px;
+	color: #666;
+	font-style: italic;
+}

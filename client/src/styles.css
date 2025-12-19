@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+.error {
+	color: #c62828;
+}
+
+.button {
+	padding: 12px 24px;
+	background: blue;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.button.secondary {
+	background: red;
+}
+
+.button:disabled {
+	background: lightgray;
+	cursor: not-allowed;
+}
